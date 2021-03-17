@@ -3,7 +3,6 @@ import { ToastrService } from 'ngx-toastr';
 import { CartItem } from 'src/app/models/cartItem';
 import { Product } from 'src/app/models/product';
 import { CartService } from 'src/app/services/cart.service';
-import { ProductService } from 'src/app/services/product.service';
 
 @Component({
   selector: 'app-cart-summary',
